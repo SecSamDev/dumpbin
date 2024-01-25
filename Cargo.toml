@@ -1,0 +1,13 @@
+[package]
+name = "dumpbin"
+version = "1.0.0"
+edition = "2021"
+description = "Simplify using Dumpbin Windows tool"
+authors = ["Samuel Garcés Marín <samuel.garces@protonmail.com>"]
+repository = "https://github.com/SecSamDev/dumpbin"
+license = "MIT"
+
+[dependencies]
+forensic-rs = "0"
+frnsc-liveregistry-rs = "0"
+regex = "1.10.3"
